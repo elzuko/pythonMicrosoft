@@ -1,3 +1,5 @@
+from datetime import date
+
 print('Hello, World!')
 sum = 1 + 2 # 3
 product = sum * 2
@@ -11,3 +13,16 @@ shuttle_landed_on_the_moon = "Apollo 11" #string
 print(type (planets_in_solar_system))
 print(type (distance_to_alpha_centauri))
 print(type (can_liftoff))
+
+x = 2
+x *=  2
+print(x)
+
+date.today()
+print(date.today())
+print("Today's date is: " + str(date.today()))
+
+
+parsecs = 11
+lightyears = parsecs * 3.26
+print(str(parsecs) + " parsecs is " + str(lightyears) + " lightyears")
