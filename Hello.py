@@ -57,5 +57,15 @@ while True:
         print ("a is equal to b")
         break
  
-
+while True:
+     print("Tamaño de objeto identificado:")
+     objeto = int(input())
+     if objeto >= 5:
+         print("objeto identificado como peligroso para la nave")
+     else:
+        print("objeto descartado nave a salvo")
+     print("Tienes mas objetos si / no")
+     R = input()
+     if R == "no":
+     	    break
  
