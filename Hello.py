@@ -44,13 +44,18 @@ if a <= 0:
 print(b)
 
 
+while True:
+    print("1primer numero: ")
+    a = input()
+    print("1primer numero: ")
+    b = input()
+    if a < b:
+        print("a is less than b")
+    elif a > b:
+       print("a is greater than b")
+    else: 
+        print ("a is equal to b")
+        break
+ 
 
-a = 93
-b = 93
-if a < b:
-    print("a is less than b")
-elif a > b:
-    print("a is greater than b")
-else: 
-    print ("a is equal to b")
  
