@@ -26,3 +26,31 @@ print("Today's date is: " + str(date.today()))
 parsecs = 11
 lightyears = parsecs * 3.26
 print(str(parsecs) + " parsecs is " + str(lightyears) + " lightyears")
+
+
+a = 55
+b = 97
+# test expression
+if a < b:
+    # statement to be run
+    print(b)
+
+
+
+a = 24
+b = 44
+if a <= 0:
+    print(a)
+print(b)
+
+
+
+a = 93
+b = 93
+if a < b:
+    print("a is less than b")
+elif a > b:
+    print("a is greater than b")
+else: 
+    print ("a is equal to b")
+ 
