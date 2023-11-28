@@ -69,3 +69,31 @@ while True:
      if R == "no":
      	    break
  
+
+a = 23
+b = 34
+if a == 34 or b == 34:
+    print(a + b)
+
+fact = "The Moon has no atmosphere."
+two_facts = fact + "No sound can be heard on the Moon."
+print(two_facts)
+
+multiline = "Facts about the Moon:\n There is no atmosphere.\n There is no sound."
+print(multiline)
+
+multiline = """Facts about the Moon:
+ There is no atmosphere. 
+ There is no sound."""
+print(multiline)
+
+print("temperatures and facts about the moon".title())
+
+a = "luis" "carlos" "javier" "frank"
+
+
+a.count("luis" "luis" "luis" "luis")
+
+temperatures = "Daylight: 260 F Nighttime: -280 F"
+temperatures_list = temperatures.split()
+print(temperatures_list)
