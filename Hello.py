@@ -97,3 +97,29 @@ a.count("luis" "luis" "luis" "luis")
 temperatures = "Daylight: 260 F Nighttime: -280 F"
 temperatures_list = temperatures.split()
 print(temperatures_list)
+
+#print  count(("Daylight: 260 F Nighttime: -280 F".split()))
+
+print("Moon" in "This text will describe facts and challenges with space travel")
+print("Moon" in "This text will describe facts about the Moon")
+
+temperatures = """Saturn Mars has -28 Celsius."""
+print(temperatures.find("Mars"))
+
+mass_percentage = "1/6"
+print("On the Moon, you would weigh about %s of your weight on Earth." % mass_percentage)
+
+print("""Both sides of the %s get the same amount of sunlight, but only one side is seen from %s because the %s rotates around its own axis when it orbits %s.""" % ("Moon", "Earth", "Moon", "Earth"))
+print("Luis %s Dominguez %s" % ("Alexander","Piña"))
+
+demo_int = int('215')
+print(demo_int)
+
+demo_float = float('215.3')
+print(demo_float)
+
+
+    print(round(1.4))
+    print(round(1.5))
+    print(round(2.5))
+    print(round(2.6))
