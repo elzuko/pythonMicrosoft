@@ -1,0 +1,50 @@
+from math import ceil , floor
+round_up = ceil(12.5)
+print (round_up)
+
+round_down= floor(12.5)
+print(round_down)
+
+print(39 - 16)
+print(16 - 39)
+
+print(abs(39 - 16))
+
+print(abs(16 - 39))
+
+
+###### creacion de lista
+#######################
+
+Nombres = ["LUIS","CARLOS","ana","lucia","candy","SOPHIA"]
+print("primer nombre de la lista:", Nombres[0])
+print("segundo nombre de la lista:", Nombres[1])
+print("Ultimo nombre de la lista:", Nombres[5])
+Nombres[5] = "ESMERALDA"
+print("Es el Segundo nombre de sophia:", Nombres[5])
+Cantidad_Nombres = len(Nombres)
+print("La cantidad en numero es:",Cantidad_Nombres)
+##### AGREGAR CONTENIDO A LA LISTA
+###################################
+Nombres = ["LUIS","CARLOS","ana","lucia","candy","SOPHIA"]
+Nombres.append("FRANCISCO")
+Cantidad_Nombres = len(Nombres)
+print(Cantidad_Nombres)
+print(Nombres)
+
+##### QUITAR CONRTENIDO A LA LISTA
+###################################
+Cantidad_Nombres = len(Nombres)
+Nombres.pop()
+print(Nombres)
+
+
+planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
+print("The last planet is", planets[-1])
+print("The penultimate planet is", planets[-2])
+print("The primer planet is", planets[-8])
+
+
+
+
+
