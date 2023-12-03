@@ -119,7 +119,6 @@ print(demo_int)
 demo_float = float('215.3')
 print(demo_float)
 
-
 print(round(1.4))
 print(round(1.5))
 print(round(2.5))

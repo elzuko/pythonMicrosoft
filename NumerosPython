@@ -38,12 +38,8 @@ Cantidad_Nombres = len(Nombres)
 Nombres.pop()
 print(Nombres)
 
+ 
 
-planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
-gravity_on_planets = [0.378, 0.907, 1, 0.377, 2.36, 0.916, 0.889, 1.12]
-print("The last planet is", planets[-1])
-print("The penultimate planet is", planets[-2])
-print("The primer planet is", planets[-8])
 
 
 gravity_on_earth = 1.0
@@ -60,3 +56,16 @@ print("The lightest a bus would be in the solar system is", bus_weight * min(gra
 print("The heaviest a bus would be in the solar system is", bus_weight * max(gravity_on_planets), "N")
 print(min(gravity_on_planets))
 print(max(gravity_on_planets))
+
+
+planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
+planets_before_earth = planets[0:2]
+print(planets_before_earth)
+
+
+amalthea_group = ["Metis", "Adrastea", "Amalthea", "Thebe"]
+galilean_moons = ["Io", "Europa", "Ganymede", "Callisto"]
+
+regular_satellite_moons = amalthea_group + galilean_moons
+regular_satellite_moons.sort()
+print("The regular satellite moons of Jupiter are", regular_satellite_moons)
