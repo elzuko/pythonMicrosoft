@@ -108,12 +108,30 @@ planet = {
 }
 
 print(planet.get('name'))
-
+#### SI NO LO CONSIGUE TRAE NONE
 wibble = planet.get('wibble') # Returns None
 print(wibble)
+####### Y SI LO PEDIMOS DE ESTA FORMA TRAE ERROR ####
+####################################################
 wibble = planet['wibble'] # Throws KeyError
 print(wibble)
-
+############ MODIFICA VALORES EN UN DICIONARY ##################
 planet.update({'name': 'Makemake'})
-
-# No output: name is now set to Makemake.
+################################################################
+planet['name'] = 'REMAKE'
+print(planet.get('name'))
+print(planet.get('moons'))
+print(planet.get('orbital period'))
+# No output: name is now set to Makemake
+################################################################
+##### MODIFICA VALORES EN FORMA MASIVA  ########################
+################################################################
+planet.update({
+    'name': 'Jupiter',
+    'moons': 79
+})
+planet['orbital period'] = 4333
+################################################################
+##### ELIMINAR CLAVE DEL DICIONARIO      ########################
+################################################################
+planet.pop('orbital period')
