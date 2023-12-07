@@ -121,7 +121,7 @@ planet.update({'name': 'Makemake'})
 planet['name'] = 'REMAKE'
 print(planet.get('name'))
 print(planet.get('moons'))
-print(planet.get('orbital period'))
+print(planet.get('diameter (km)'))
 # No output: name is now set to Makemake
 ################################################################
 ##### MODIFICA VALORES EN FORMA MASIVA  ########################
@@ -132,6 +132,18 @@ planet.update({
 })
 planet['orbital period'] = 4333
 ################################################################
-##### ELIMINAR CLAVE DEL DICIONARIO      ########################
+##### ELIMINAR CLAVE DEL DICIONARIO     ########################
 ################################################################
 planet.pop('orbital period')
+################################################################
+##### ADDICIONA CLAVE DEL DICIONARIO    ########################
+################################################################
+# Add address
+planet['diameter (km)'] = {
+    'polar': 133709,
+    'equatorial': 142984
+}
+################################################################
+##### MOSTAR EL DICIONARIO    ##################################
+################################################################
+print(f'{planet["name"]} polar diameter: {planet["diameter (km)"]["polar"]} polar diameter: {planet["diameter (km)"]["equatorial"]}')
