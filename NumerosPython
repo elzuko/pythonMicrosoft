@@ -97,3 +97,23 @@ for number in countdown:
     print(number)
     sleep(1)  # Wait 1 second
 print("Blast off!! 🚀")
+
+###### DICTIONARY ############
+##############################
+
+planet = {
+    'name': 'Earth',
+    'moons': 1,
+    #'wibble':'locura'
+}
+
+print(planet.get('name'))
+
+wibble = planet.get('wibble') # Returns None
+print(wibble)
+wibble = planet['wibble'] # Throws KeyError
+print(wibble)
+
+planet.update({'name': 'Makemake'})
+
+# No output: name is now set to Makemake.
