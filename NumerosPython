@@ -150,6 +150,14 @@ print(f'{planet["name"]} polar diameter: {planet["diameter (km)"]["polar"]} pola
 ################################################################
 ##### Programación dinámica con diccionarios ###################
 ################################################################
-
+####### Recuperación de todas las claves y valores #############
+################################################################
+rainfall = {
+    'october': 3.5,
+    'november': 4.2,
+    'december': 2.1
+}
+for key in rainfall.keys():
+    print(f'{key}: {rainfall[key]}cm')
 
 
