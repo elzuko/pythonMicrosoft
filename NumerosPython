@@ -147,3 +147,9 @@ planet['diameter (km)'] = {
 ##### MOSTAR EL DICIONARIO    ##################################
 ################################################################
 print(f'{planet["name"]} polar diameter: {planet["diameter (km)"]["polar"]} polar diameter: {planet["diameter (km)"]["equatorial"]}')
+################################################################
+##### Programación dinámica con diccionarios ###################
+################################################################
+
+
+
